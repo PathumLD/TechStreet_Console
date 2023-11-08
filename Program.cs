@@ -158,8 +158,22 @@ namespace HelloWorld
             average = total / 10;
             Console.WriteLine("Total is " + total);
             Console.WriteLine("Average is " + average);
-            
 
+
+            // Do-While loop
+
+            int num;
+            double total = 0
+
+            do
+            {
+                Console.Write('Enter number : ');
+                num = Int16.Parse(Console.ReadLine());
+
+                total = total + num;
+            } while (num != 0);
+
+            Console.WriteLine("Total is " + total);
 
             Console.ReadLine();
 
