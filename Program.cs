@@ -128,6 +128,17 @@ namespace HelloWorld
 
             }
 
+
+            //While loop
+
+            int count = 0;
+
+            while (count <= 100)
+            {
+                Console.WriteLine(count);
+                count++;
+            }
+
             Console.ReadLine();
 
 
