@@ -175,6 +175,30 @@ namespace HelloWorld
 
             Console.WriteLine("Total is " + total);
 
+
+            // for loop
+
+            int marks;
+            int num;
+            double total = 0;
+            double avg;
+
+            Console.Write("Enter the count of students : ");
+            num = Int16.Parse(Console.ReadLine());
+
+            for (int i = 0; i < num; i++)
+            {
+                Console.Write('Enter marks of Student ' + i + " : ");
+                marks = Int16.Parse(Console.ReadLine());
+
+                total = total + marks;
+            }
+
+            avg = total / 10;
+
+            Console.WriteLine("Total marks = " + total);
+            Console.WriteLine("Average marks = " + avg);
+
             Console.ReadLine();
 
 
