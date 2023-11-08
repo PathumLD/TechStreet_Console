@@ -208,6 +208,8 @@ namespace HelloWorld
                 {
                     break; // or continue;
                 }
+
+                Console.WriteLine(i);
             }
 
             Console.ReadLine();
