@@ -212,6 +212,20 @@ namespace HelloWorld
                 Console.WriteLine(i);
             }
 
+
+            // Arrays
+
+            int[] marks;
+            marks = new int[10];  //or  int[] marks = new int[10];
+
+            for (int i = 0;i < 10; i++)
+            {
+                Console.Write('Enter marks for ' + i + " : ");
+                marks[i] = Int32.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("marks[i]");  // i can be 0 - 4
+
             Console.ReadLine();
 
 
