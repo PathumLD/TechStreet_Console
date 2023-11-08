@@ -6,28 +6,28 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             //int to double
-            /*Console.WriteLine("int to double");
+            Console.WriteLine("int to double");
 
             int number = 10;
             double number2 = number;
             Console.WriteLine(number);
             Console.WriteLine(number2);
-            Console.WriteLine();*/
+            Console.WriteLine();
 
 
             //double to int
-            /*Console.WriteLine("double to int");
+            Console.WriteLine("double to int");
 
             double number3 = 15.6;
             int number4 = (int)number3;
             Console.WriteLine(number3);
             Console.WriteLine(number4);
-            Console.WriteLine();*/
+            Console.WriteLine();
 
 
 
             //User Input for String
-            /*Console.WriteLine("User input for String");
+            Console.WriteLine("User input for String");
 
             String name;
             Console.Write("Please enter your name : ");
@@ -35,24 +35,24 @@ namespace HelloWorld
 
             Console.WriteLine("Your name is " + name);
             Console.ReadLine();
-            //Console.WriteLine();*/
+            //Console.WriteLine();
 
 
 
             //User Input for int
-            /*Console.WriteLine("User input for int");
+            Console.WriteLine("User input for int");
 
             Console.Write("Please enter your age : ");
             int age = Int16.Parse(Console.Read());
 
             Console.WriteLine("Your age is : " + age);
             Console.WriteLine();
-            Console.ReadLine();*/
+            Console.ReadLine();
 
 
             //Operators
 
-            /*int number1 = 10;
+            int number1 = 10;
             int number2 = 20;
 
             Console.WriteLine(number1 + number2);
@@ -63,7 +63,7 @@ namespace HelloWorld
             Console.WriteLine(number1++);
             Console.WriteLine(number1--);
 
-            Console.ReadLine();*/
+            Console.ReadLine();
 
 
             // if else statement
