@@ -34,7 +34,7 @@ namespace HelloWorld
             name = Console.ReadLine();
 
             Console.WriteLine("Your name is " + name);
-            Console.ReadLine();
+            //Console.ReadLine();
             //Console.WriteLine();
 
 
@@ -47,7 +47,7 @@ namespace HelloWorld
 
             Console.WriteLine("Your age is : " + age);
             Console.WriteLine();
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
             //Operators
@@ -63,7 +63,7 @@ namespace HelloWorld
             Console.WriteLine(number1++);
             Console.WriteLine(number1--);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
             // if else statement
@@ -138,6 +138,28 @@ namespace HelloWorld
                 Console.WriteLine(count);
                 count++;
             }
+
+            //Example
+
+            int count = 1;
+            double marks;
+            double total = 0;
+            double average;
+
+            while (count <= 10)
+            {
+                Console.Write("Enter the marks of student : " + count);
+                marks = Double.Parse(Console.ReadLine());
+
+                total += marks;
+                count++;
+            }
+
+            average = total / 10;
+            Console.WriteLine("Total is " + total);
+            Console.WriteLine("Average is " + average);
+            
+
 
             Console.ReadLine();
 
