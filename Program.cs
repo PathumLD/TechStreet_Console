@@ -199,6 +199,17 @@ namespace HelloWorld
             Console.WriteLine("Total marks = " + total);
             Console.WriteLine("Average marks = " + avg);
 
+
+            // break continue
+
+            for (int i = 0; i < num; i++)
+            {
+                if (i == 3)
+                {
+                    break; // or continue;
+                }
+            }
+
             Console.ReadLine();
 
 
