@@ -226,6 +226,11 @@ namespace HelloWorld
 
             Console.WriteLine("marks[i]");  // i can be 0 - 4
 
+
+            //Functional Programming
+
+
+
             Console.ReadLine();
 
 
